@@ -1,0 +1,110 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.card{
+      margin: 50px auto;
+      width: 350px;
+      height: 550px;
+      background-color: blue;
+      padding: 20px;
+      color: black;
+      background-color: white;
+}
+
+.ket{
+    margin: 20px 0;
+}
+.ket h4{
+    margin-bottom: -10px;
+}
+.ket p{
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+form .input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(149, 149, 149);
+}
+input:focus{
+    border-color: rgb(201, 247, 103);
+    outline: none;
+}
+form #golongan{
+    width: 341px;
+    height: 38px;
+}
+.btn{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.btn button{
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn #btn1{
+    background-color: black;
+    color: white;
+
+}
+.btn #btn2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.hasil{
+    text-align: center;
+    background-color:rgb(229, 255, 114);
+    padding: 6px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 338px;
+    height: 150px;
+}
+.hasil .flex{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px 6px;
+    margin-top: -14px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
