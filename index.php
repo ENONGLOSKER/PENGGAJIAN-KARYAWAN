@@ -1,7 +1,6 @@
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Fungsi untuk menghitung gaji bersih
     function hitungGajiBersih($golongan, $jamKerja) {
         $gajiPokok = 0;
 
@@ -40,12 +39,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         return $gajiBersih;
     }
 
-    // Mengambil data dari formulir
     $nama = $_POST["nama"];
     $golongan = $_POST["golongan"];
     $jamKerja = $_POST["jam_kerja"];
 
-    // Menghitung gaji bersih
     $gajiBersih = hitungGajiBersih($golongan, $jamKerja);
 }
 ?>
